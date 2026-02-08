@@ -446,6 +446,8 @@
     <ClCompile Include="Section 32 - Operator Overloading\32.02.AdditionOperatorAsNonMember\point.cpp" />
     <ClCompile Include="Section 32 - Operator Overloading\32.03.SubscriptOperatorReading\main.cpp" />
     <ClCompile Include="Section 32 - Operator Overloading\32.03.SubscriptOperatorReading\point.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.04.SubscriptOperatorReadingWritting\main.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.04.SubscriptOperatorReadingWritting\point.cpp" />
     <ClCompile Include="Section 4 - Literals &amp; Constants\4.1.Literals\main.cpp" />
     <ClCompile Include="Section 4 - Literals &amp; Constants\4.2.Constants\main.cpp" />
     <ClCompile Include="Section 4 - Literals &amp; Constants\4.3.ConstantExpressions\main.cpp" />
@@ -552,6 +554,7 @@
     <ClInclude Include="Section 32 - Operator Overloading\32.01.AdditionOperatorAsMember\point.h" />
     <ClInclude Include="Section 32 - Operator Overloading\32.02.AdditionOperatorAsNonMember\point.h" />
     <ClInclude Include="Section 32 - Operator Overloading\32.03.SubscriptOperatorReading\point.h" />
+    <ClInclude Include="Section 32 - Operator Overloading\32.04.SubscriptOperatorReadingWritting\point.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
