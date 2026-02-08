@@ -18,6 +18,538 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Section 1 - First Steps\1.1.FirstCppProject\main.cpp" />
+    <ClCompile Include="Section 1 - First Steps\1.2.Comments\main.cpp" />
+    <ClCompile Include="Section 1 - First Steps\1.3.ErrorsWarnings\main.cpp" />
+    <ClCompile Include="Section 1 - First Steps\1.4.StatementsAndFunctions\main.cpp" />
+    <ClCompile Include="Section 1 - First Steps\1.5.DataInput&amp;Output\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.1.Declaring&amp;UsingArrays\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.2.SizeOfArrays\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.3.ArraysOfCharacters\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.4.ArrayBounds\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.5.GeneratingRandomNumbers\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.6.PracticeFortuneTellerV1\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.7.MultiDimensionalArrays\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.8.MultiDimentionalArraysOfCharacters\main.cpp" />
+    <ClCompile Include="Section 10 - Arrays\10.9.PracticeFortuneTellerV2\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.1.Declaring&amp;UsingPointers\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.10.PointerArithmeticComparingPointers\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.11.SwappingArrayDataPointerArithmetic\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.12.DynamicMemoryAllocation\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.13.DanglingPointers\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.14.WhenNewFails\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.15.NullPointerSafety\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.16.MemoryLeaks\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.17.DynamicallyAllocatedArrays\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.2.PointerToChar\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.3.ArrayOfPointerToChar\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.4.ConstPointer&amp;PointerToConst\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.5.ArrayOfContPointerToConstChar\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.6.Pointers&amp;Arrays\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.7.SwappingArrayDataDemo\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.8.PointerArithmeticNavigation\main.cpp" />
+    <ClCompile Include="Section 11 - Pointers\11.9.PointerArithmeticDistanceBetweenElements\main.cpp" />
+    <ClCompile Include="Section 12 - References\12.1.Declaring&amp;UsingReferences\main.cpp" />
+    <ClCompile Include="Section 12 - References\12.2.ComparingPointers&amp;References\main.cpp" />
+    <ClCompile Include="Section 12 - References\12.3.References&amp;Const\main.cpp" />
+    <ClCompile Include="Section 12 - References\12.4.ReferencesWithRangeBasedForLoops\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.1.CharacterManipulation\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.10.StdStringCompare\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.11.StdStringReplacingCopyingResizingSwapping\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.12.SearchingStdString\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.13.TransformingStdStringFromToNumbers\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.14.EscapeSequences\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.15.RawStringLiterals\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.16.CopiedStrings\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.17.StringView\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.2.CStringManipulation\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.3.CStringConcatenation&amp;Copy\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.4.Declaring&amp;UsingStdString\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.5.ConcatenatingStdStrings\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.6.AccessingCharactersInStdString\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.7.StdStringSize&amp;Capacity\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.8.ModifyingStdStrings\main.cpp" />
+    <ClCompile Include="Section 13 - Character Manipulation &amp; Strings\13.9.ComparingStdStrings\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.1.FirstHandOnCppFunctions\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.10.PassByConstReference\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.11.ArrayFunctionParameters\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.12.SizedArrayFunctionParameters\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.13.SizedArraysByReference\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.14.MultiDimensionalArrayFunctionParameters\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.15.DefaultFunctionParameters\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.16.ImplicitConversions\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.17.ImplicitConversionsWithReferences\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.18.ImplicitConversionsWithPointers\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.19.String_viewParameters\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.2.FunctionDeclarations&amp;Definitions\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.20.ImplicitConversionsFromStringViewToString\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.21.constexprFunctions\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.22.constevalFunctions\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\compare.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\operations.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.4.PassByValue\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.5.PassByConstValue\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.6.PassByPointer\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.7.PassByPointerToConst\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.8.PassByConstPointerToConst\main.cpp" />
+    <ClCompile Include="Section 14 - Functions\14.9.PassByReference\main.cpp" />
+    <ClCompile Include="Section 15 - Enums &amp; Type Aliases\15.1.EnumClasses\main.cpp" />
+    <ClCompile Include="Section 15 - Enums &amp; Type Aliases\15.2.UsingEnum\main.cpp" />
+    <ClCompile Include="Section 15 - Enums &amp; Type Aliases\15.3.OldEnums\main.cpp" />
+    <ClCompile Include="Section 15 - Enums &amp; Type Aliases\15.4.TypeAliases\main.cpp" />
+    <ClCompile Include="Section 16 - Arguments To The Main Function\16.1.Grab&amp;UseTheArguments\main.cpp" />
+    <ClCompile Include="Section 16 - Arguments To The Main Function\16.2.Calculator V1\main.cpp" />
+    <ClCompile Include="Section 16 - Arguments To The Main Function\16.3.CalculatorV2\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.1.Input&amp;OutputParameters\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.10.OptionalOutputFromFunctions\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.11.IntroducingStdOptional\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.12.OptionalOutputWithStdOptional\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.2.ReturningFromFunctionsByValue\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.3.ReturningByReference\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.4.ReturningByPointer\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.5.ReturningArrayElementIndexByPointer\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.6.BareAutoTypeDeduction\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.7.FunctionReturnTypeDeduction\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.8.ReturnTypeDeductionWithReferences\main.cpp" />
+    <ClCompile Include="Section 17 - Getting Things Out Of Funtions\17.9.FunctionDefinitionsWithReturnTypeDeduction\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.1.OverloadingWithDifferentParameters\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.2.OverloadingWithPointerParameters\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.3.OverloadingWithReferenceParameters\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.4.OverloadingWithConstParametersByValue\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.5.OverloadingWithConstPointer&amp;PointerToConstParameters\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.6.OverloadingWithConstReferences\main.cpp" />
+    <ClCompile Include="Section 18 - Function Overloading\18.7.OverloadsWithDefaultParameters\main.cpp" />
+    <ClCompile Include="Section 19 - Lambda Functions\19.1.Declaring&amp;UsingLambdas\main.cpp" />
+    <ClCompile Include="Section 19 - Lambda Functions\19.2.CaptureLists\main.cpp" />
+    <ClCompile Include="Section 19 - Lambda Functions\19.3.CaptureAllLists\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.1.NumberSystems\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.2.Integer Types\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.3.IntegerModifiers\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.4.FractionalNumbers\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.5.Booleans\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.6.Characters&amp;Text\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.7.Auto\main.cpp" />
+    <ClCompile Include="Section 2 - Variables &amp; Data Types\2.8.Assignments\main.cpp" />
+    <ClCompile Include="Section 20 - Functions The Misfits\20.1.StaticVariables\main.cpp" />
+    <ClCompile Include="Section 20 - Functions The Misfits\20.2.InlineFunctions\main.cpp" />
+    <ClCompile Include="Section 20 - Functions The Misfits\20.3.RecursiveFunctions\main.cpp" />
+    <ClCompile Include="Section 21 - Function Call Stack Debugging\21.1.Debugging\main.cpp" />
+    <ClCompile Include="Section 21 - Function Call Stack Debugging\21.2.DebuggingArraysLoops&amp;Pointers\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.1.TryingOutFunctionTemplates\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.10.DefaultArguments\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.11.NonTypeTemplateParameters\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.12.AutoFunctionTemplates\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.13.NamedTemplateParametersForLambdas\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.14.TypeTraits\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.15.ConstexprIf\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.2.TemplateTypeDeduction&amp;ExplicitArguments\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.3.TemplateTypeParametersByReference\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.4.TemplateSpecialization\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.5.FunctionTemplatesWithOverloading\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.6.FunctionTemplatesWithMultipleParameters\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.7.TemplateReturnTypeDeductionWithAuto\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.8.Decltype&amp;TrailingReturnTypes\main.cpp" />
+    <ClCompile Include="Section 22 - Function Templates\22.9.DecltypeAuto\main.cpp" />
+    <ClCompile Include="Section 23 - Concepts\23.1.UsingConcepts\main.cpp" />
+    <ClCompile Include="Section 23 - Concepts\23.2.BuildingYourOwnConcepts\main.cpp" />
+    <ClCompile Include="Section 23 - Concepts\23.3.ZoomingInOnRequiresClause\main.cpp" />
+    <ClCompile Include="Section 23 - Concepts\23.4.CombiningConcepts\main.cpp" />
+    <ClCompile Include="Section 23 - Concepts\23.5.Concepts&amp;Auto\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.1.YourFirstClass\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.10.Struct\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.11.SizeOfClassObjects\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.2.Constructors\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.3.DefaultedConstructors\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.4.Setters&amp;Getters\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.5.ClassAcrossMultipleFiles\cylinder.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.5.ClassAcrossMultipleFiles\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.6.ManagingClassObjectsThroughPointers\cylinder.cpp">
+      <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>x64\Debug\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>x64\Debug\</BrowseInformationFile>
+      <CompileAs>Default</CompileAs>
+      <UseDynamicDebugging>false</UseDynamicDebugging>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFuzzer>false</EnableFuzzer>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <EnableVectorLength>NotSet</EnableVectorLength>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>x64\Debug\</ModuleDependenciesFile>
+      <ModuleOutputFile>x64\Debug\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ObjectFileName>x64\Debug\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>x64\Debug\vc143.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>x64\Debug\CppMasterclass.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>x64\Debug\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TrackerLogDirectory>x64\Debug\CppMasterclass.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>x64\Debug\</XMLDocumentationFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <BuildStlModules>false</BuildStlModules>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_UNICODE;UNICODE;</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <LinkCompiled>true</LinkCompiled>
+    </ClCompile>
+    <ClCompile Include="Section 24 - Classes\24.6.ManagingClassObjectsThroughPointers\main.cpp">
+      <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>x64\Debug\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>x64\Debug\</BrowseInformationFile>
+      <CompileAs>Default</CompileAs>
+      <UseDynamicDebugging>false</UseDynamicDebugging>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFuzzer>false</EnableFuzzer>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <EnableVectorLength>NotSet</EnableVectorLength>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>x64\Debug\</ModuleDependenciesFile>
+      <ModuleOutputFile>x64\Debug\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ObjectFileName>x64\Debug\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>x64\Debug\vc143.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>x64\Debug\CppMasterclass.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>x64\Debug\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TrackerLogDirectory>x64\Debug\CppMasterclass.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>x64\Debug\</XMLDocumentationFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <BuildStlModules>false</BuildStlModules>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_UNICODE;UNICODE;</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <LinkCompiled>true</LinkCompiled>
+    </ClCompile>
+    <ClCompile Include="Section 24 - Classes\24.7.Destructors\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.8.OrderOfConstructorDestructorCalls\main.cpp" />
+    <ClCompile Include="Section 24 - Classes\24.9.ThisPointer\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.1.ConstObjects\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.1.ConstObjects\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.2.ConstObjectsAsFunctionParameters\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.2.ConstObjectsAsFunctionParameters\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.3.ConstMemberFunctions\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.3.ConstMemberFunctions\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.4.GettersThatDoubleAsSetters\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.4.GettersThatDoubleAsSetters\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.5.DanglingPointers&amp;References\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.5.DanglingPointers&amp;References\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.6.MutableObjects\dog.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.6.MutableObjects\main.cpp" />
+    <ClCompile Include="Section 25 - Zooming In On Class Objects\25.7.StructuredBindings\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.1.DefaultParametersForConstructors\cylinder.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.1.DefaultParametersForConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.10.InitializerListConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.11.AggregateInitialization\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.12.DesignatedInitializers\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.13.UniformInitializationForAggregates\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.2.InitializerListsForConstructors\cylinder.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.2.InitializerListsForConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.3.ExplicitConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.3.ExplicitConstructors\square.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.4.ExplicitConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.4.ExplicitConstructors\square.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.5.ConstructorDelegation\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.5.ConstructorDelegation\square.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.6.CopyConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.6.CopyConstructors\person.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.7.ObjectsStoredInArraysAreCopies\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.7.ObjectsStoredInArraysAreCopies\person.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.8.MoveConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.8.MoveConstructors\point.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.9.DeletedConstructors\main.cpp" />
+    <ClCompile Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.9.DeletedConstructors\point.cpp" />
+    <ClCompile Include="Section 27 - Friends\27.1.FriendFunctions\main.cpp" />
+    <ClCompile Include="Section 27 - Friends\27.2.FriendClasses\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.1.StaticMemberVariables\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.1.StaticMemberVariables\point.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.1.StaticMemberVariables\some_other_file.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.2.InlineStaticMemberVariables\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.2.InlineStaticMemberVariables\point.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.3.StaticConstants\cylinder.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.3.StaticConstants\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.4.StaticConstantsPreCpp17\bird.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.4.StaticConstantsPreCpp17\cylinder.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.4.StaticConstantsPreCpp17\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.5.MemberVariablesOfTypeSelf\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.5.MemberVariablesOfTypeSelf\point.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.6.MemberVariablesOfOtherTypes\integer.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.6.MemberVariablesOfOtherTypes\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.6.MemberVariablesOfOtherTypes\point.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.7.StaticMemberFunctions\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.7.StaticMemberFunctions\point.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.8.NestedClasses\main.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.8.NestedClasses\outer.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.9.InClassMemberVariableInitialization\integer.cpp" />
+    <ClCompile Include="Section 28 - Const &amp; Static Members\28.9.InClassMemberVariableInitialization\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.1.CreatingNamespaces\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\cylinder.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\line.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\point.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.3.DefaultGlobalNamespace\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.4.BuiltInNamespaces\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.5.UsingDeclarations\cylinder.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.5.UsingDeclarations\line.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.5.UsingDeclarations\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.5.UsingDeclarations\operations.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.5.UsingDeclarations\point.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.6.AnonymousNamespaces\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.6.AnonymousNamespaces\some_other_file.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.7.NestedNamespaces\main.cpp" />
+    <ClCompile Include="Section 29 - Namespaces\29.8.NamespaceAliases\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.1.BasicOperations\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.10.WeirdIntegralTypes\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.2.Precedence&amp;Associativity\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.3.Prefix&amp;PostfixIncrement&amp;Decrement\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.4.CompoundAssignmentOperators\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.5.RelationalOperators\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.6.Logical Operators\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.7.OutputFormatting\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.8.NumericLimits\main.cpp" />
+    <ClCompile Include="Section 3 - Operations On Data\3.9.MathFunctions\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.1.Compiling&amp;LinkingModel\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.1.Compiling&amp;LinkingModel\utilities.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.2.Declarations&amp;Definitions\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.2.Declarations&amp;Definitions\some_other_file.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.3.OneDefinitionRule\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.3.OneDefinitionRule\some_other_file.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.4.Linkage\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.4.Linkage\some_other_file.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.5.FlippingLinkage\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.5.FlippingLinkage\some_other_files.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.6.InlineVariables&amp;Functions\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.6.InlineVariables&amp;Functions\utility2.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.7.InlineVersusStatic\main.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.7.InlineVersusStatic\utility1.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.7.InlineVersusStatic\utility2.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.8.ForwardDeclarations\dog.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.8.ForwardDeclarations\farm.cpp" />
+    <ClCompile Include="Section 30 - Programs With Multiple Files\30.8.ForwardDeclarations\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.1.UniquePointers\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.1.UniquePointers\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.2.UniquePointersAsFunctionParameters&amp;ReturnTypes\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.2.UniquePointersAsFunctionParameters&amp;ReturnTypes\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.2.UniquePointersAsFunctionParameters&amp;ReturnTypes\person.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.3.UniquePointersAndArrays\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.3.UniquePointersAndArrays\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.4.SharedPointers\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.4.SharedPointers\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.5.SharedPointersFromUniquePointers\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.5.SharedPointersFromUniquePointers\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.6.SharedPointersWithArrays\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.6.SharedPointersWithArrays\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.7.SharedPointersAsFunctionParameters&amp;ReturnTypes\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.7.SharedPointersAsFunctionParameters&amp;ReturnTypes\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.8.WeakPointers\dog.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.8.WeakPointers\main.cpp" />
+    <ClCompile Include="Section 31 - Smart Pointers\31.8.WeakPointers\person.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.01.AdditionOperatorAsMember\main.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.01.AdditionOperatorAsMember\point.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.02.AdditionOperatorAsNonMember\main.cpp" />
+    <ClCompile Include="Section 32 - Operator Overloading\32.02.AdditionOperatorAsNonMember\point.cpp" />
+    <ClCompile Include="Section 4 - Literals &amp; Constants\4.1.Literals\main.cpp" />
+    <ClCompile Include="Section 4 - Literals &amp; Constants\4.2.Constants\main.cpp" />
+    <ClCompile Include="Section 4 - Literals &amp; Constants\4.3.ConstantExpressions\main.cpp" />
+    <ClCompile Include="Section 4 - Literals &amp; Constants\4.4.Constinit\main.cpp" />
+    <ClCompile Include="Section 5 - Conversions Overflow &amp; Underflow\5.1.ImplicitDataConversions\main.cpp" />
+    <ClCompile Include="Section 5 - Conversions Overflow &amp; Underflow\5.2.ExplicitDataConversions\main.cpp" />
+    <ClCompile Include="Section 5 - Conversions Overflow &amp; Underflow\5.3.Overflow&amp;Underflow\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.1.PrintingIntegersInBinary\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.2.ShiftOperators\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.3.LogicalBitwiseOperators\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.4.CompoundBitwiseOperators\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.5.Masks\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.6.MasksExample\main.cpp" />
+    <ClCompile Include="Section 6 - Bitwise Operators\6.7.PackingColorInformation\main.cpp" />
+    <ClCompile Include="Section 7 - Variable Lifetime &amp; Scope\7.1.VariableScope\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.1.IfStatement\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.10.VariableScopeRevisited\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.11.SwitchScope\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.2.ElseIf\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.3.Switch\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.4.ShortCircuitEvaluation\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.5.IntegralLogicConditions\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.6.TernaryOperators\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.7.IfConstexpr\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.8.IfWithInitializer\main.cpp" />
+    <ClCompile Include="Section 8 - Flow Control\8.9.SwitchWithInitializer\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.1.ForLoop\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.10.DecrementingLoops\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.11.NestedLoops\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.12.Break&amp;Continue\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.13.FixCalculator\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.14.ForLoopWithInitCondition\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.2.ForLoopMultipleDeclarations\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.3.CommaOperator\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.4.RangeBasedForLoop\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.5.WhileLoop\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.6.HugeLoopsWithOutput\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.7.DoWhileLoop\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.8.InfiniteLoops\main.cpp" />
+    <ClCompile Include="Section 9 - Loops\9.9.InfiniteLoopPractice\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\someOtherFile.cpp" />
+    <Content Include="Section 30 - Programs With Multiple Files\30.1.Compiling&amp;LinkingModel\main.o" />
+    <Content Include="Section 30 - Programs With Multiple Files\30.1.Compiling&amp;LinkingModel\utilities.o" />
+    <Content Include="Section 30 - Programs With Multiple Files\30.6.InlineVariables&amp;Functions\utility1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\compare.h" />
+    <ClInclude Include="Section 14 - Functions\14.3.MultipleFilesCompilationModelRevisited\operations.h" />
+    <ClInclude Include="Section 24 - Classes\24.5.ClassAcrossMultipleFiles\constants.h" />
+    <ClInclude Include="Section 24 - Classes\24.5.ClassAcrossMultipleFiles\cylinder.h" />
+    <ClInclude Include="Section 24 - Classes\24.6.ManagingClassObjectsThroughPointers\constants.h" />
+    <ClInclude Include="Section 24 - Classes\24.6.ManagingClassObjectsThroughPointers\cylinder.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.1.ConstObjects\dog.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.2.ConstObjectsAsFunctionParameters\dog.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.3.ConstMemberFunctions\dog.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.4.GettersThatDoubleAsSetters\dog.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.5.DanglingPointers&amp;References\dog.h" />
+    <ClInclude Include="Section 25 - Zooming In On Class Objects\25.6.MutableObjects\dog.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.1.DefaultParametersForConstructors\cylinder.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.2.InitializerListsForConstructors\cylinder.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.3.ExplicitConstructors\square.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.4.ExplicitConstructors\square.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.5.ConstructorDelegation\square.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.6.CopyConstructors\person.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.7.ObjectsStoredInArraysAreCopies\person.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.8.MoveConstructors\point.h" />
+    <ClInclude Include="Section 26 - Diving Deep Into Constructors &amp; Initialization\26.9.DeletedConstructors\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.1.StaticMemberVariables\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.2.InlineStaticMemberVariables\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.3.StaticConstants\cylinder.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.4.StaticConstantsPreCpp17\bird.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.4.StaticConstantsPreCpp17\cylinder.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.5.MemberVariablesOfTypeSelf\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.6.MemberVariablesOfOtherTypes\integer.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.6.MemberVariablesOfOtherTypes\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.7.StaticMemberFunctions\point.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.8.NestedClasses\outer.h" />
+    <ClInclude Include="Section 28 - Const &amp; Static Members\28.9.InClassMemberVariableInitialization\integer.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\cylinder.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\line.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.2.NamespacesAcrossMultipleFiles\point.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.5.UsingDeclarations\cylinder.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.5.UsingDeclarations\line.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.5.UsingDeclarations\operations.h" />
+    <ClInclude Include="Section 29 - Namespaces\29.5.UsingDeclarations\point.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.1.Compiling&amp;LinkingModel\utilities.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.2.Declarations&amp;Definitions\person.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.3.OneDefinitionRule\person.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.6.InlineVariables&amp;Functions\utility.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.8.ForwardDeclarations\dog.h" />
+    <ClInclude Include="Section 30 - Programs With Multiple Files\30.8.ForwardDeclarations\farm.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.1.UniquePointers\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.2.UniquePointersAsFunctionParameters&amp;ReturnTypes\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.2.UniquePointersAsFunctionParameters&amp;ReturnTypes\person.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.3.UniquePointersAndArrays\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.4.SharedPointers\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.5.SharedPointersFromUniquePointers\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.6.SharedPointersWithArrays\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.7.SharedPointersAsFunctionParameters&amp;ReturnTypes\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.8.WeakPointers\dog.h" />
+    <ClInclude Include="Section 31 - Smart Pointers\31.8.WeakPointers\person.h" />
+    <ClInclude Include="Section 32 - Operator Overloading\32.01.AdditionOperatorAsMember\point.h" />
+    <ClInclude Include="Section 32 - Operator Overloading\32.02.AdditionOperatorAsNonMember\point.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{A3B64F24-3E2E-4886-A66B-D2F1BCCBC060}</ProjectGuid>
